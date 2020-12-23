@@ -19,40 +19,40 @@ Enfin le caractère saisit par l’utilisateur est attribué à une variable de 
 Concrètement, ce travail de contrôle permet de fiabiliser le programme.
 Quelques exemples de saisies habituellement problématiques, résolus grâce aux contrôles.
 
-![alt text](https://github.com/manon-deleest/blibliotheque-/blob/main/image/screen2.png)
+![alt text](https://github.com/manon-deleest/blibliotheque-/blob/master/image/screen2.png)
 
-![alt text](https://github.com/manon-deleest/blibliotheque-/blob/main/image/screen3.png)
+![alt text](https://github.com/manon-deleest/blibliotheque-/blob/master/image/screen3.png)
 
 En saisissant « 1 » soit « Ajouter un livre », on accède à la création d’un livre, une multitude d’informations est demandée à l’utilisateur afin de remplir le tableau de données consacré aux livres en arrière-plan. On peut y retrouver le genre du livre, la date de publication du livre ou encore le nombre de pages …
 
-![alt text](https://github.com/manon-deleest/blibliotheque/blob/main/image/screen4.png)
+![alt text](https://github.com/manon-deleest/blibliotheque-/blob/master/image/screen4.png)
 
 Les contrôles sur les saisies ont été réalisés pour que la date de décès d’un auteur ne puisse pas être antérieur à sa date de naissance ainsi il ne peut pas publier de livres avant sa naissance. Néanmoins il peut publier un livre post-mortem, ceci est notre volonté pour rester réaliste car il peut y avoir une réédition des dizaines d’années plus tard (ex : Misérables, Victor Hugo).
 
 Pour continuer, l’utilisateur à la possibilité d’ajouter simplement un auteur sans passer par l’ajout de livre :
 
-![alt text](https://github.com/manon-deleest/blibliotheque/blob/main/image/screen5.png)
+![alt text](https://github.com/manon-deleest/blibliotheque-/blob/master/image/screen5.png)
 
 L’utilisateur saisit tous les champs et découvre un résumé de ses saisies. Après avoir relu il se rend compte qu’il s’est trompé d’année de décès ! Pas de panique, il a été prévu une option permettant de demander à l’utilisateur s’il est d’accord avec sa saisie. Dans ce cas-là, il va saisir « n » et va découvrir le nouveau menu qui se présente à lui :
 
-![alt text](https://github.com/manon-deleest/blibliotheque/blob/main/image/screen6.png)
+![alt text](https://github.com/manon-deleest/blibliotheque-/blob/master/image/screen6.png)
 
 Il va pouvoir choisir parmi tous les champs disponibles saisis au préalable. Ici il pourra donc ressaisir la date de décès et pourra une nouvelle fois vérifier l’ensemble des données. Après avoir vérifié, il recevra un message de validation « Auteur enregistré ! » avant de retrouver le menu principal. Avec l’option « 3 »  et « 4 » du menu principal, l’utilisateur peut trouver tous ses livres/auteurs saisis : 
 
-![alt text](https://github.com/manon-deleest/blibliotheque/blob/main/image/screen7.png)
+![alt text](https://github.com/manon-deleest/blibliotheque-/blob/master/image/screen7.png)
 
 Pour terminer la présentation, il faut mentionner les 2 menus « Livre/Auteur » restants. A travers ces deux menus, on retrouve des options relatives à ceux-ci. Pour le « menu livre », la saisie « 5 » entraîne son ouverture. Celui-ci propose de nouvelles options relatives aux livres comme la modification de livre, le tri, la recherche ou encore la suppression de livre. 
 
-![alt text](https://github.com/manon-deleest/blibliotheque/blob/main/image/screen8.png)
+![alt text](https://github.com/manon-deleest/blibliotheque-/blob/master/image/screen8.png)
 
 
 Il est aussi possible de trier par nom d’auteur, par date de publication et par titre.
 
-![alt text](https://github.com/manon-deleest/blibliotheque/blob/main/image/screen10.png)
+![alt text](https://github.com/manon-deleest/blibliotheque-/blob/master/image/screen10.png)
 
 Pour une question pratique, il est imposé à l’utilisateur le tri après la suppression d’un livre. Dans le « menu auteur », les mêmes options existent sauf le tri des auteurs. La recherche se fait de la même façon et le programme affiche l’auteur avec sa fiche informative.
 
-![alt text](https://github.com/manon-deleest/blibliotheque/blob/main/image/screen11.png)
+![alt text](https://github.com/manon-deleest/blibliotheque-/blob/master/image/screen11.png)
 
 
 ***
