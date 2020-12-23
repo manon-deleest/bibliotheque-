@@ -8,7 +8,7 @@
 
   Le programme débute avec un menu. Sur ce menu se trouve la partie centrale du programme : l’ajout de livre, d’auteurs, l’affichage des auteurs … mais aussi la possibilité de choisir un nouveau menu, le « Menu Livre » ou le « Menu Auteur ». L’utilisateur a aussi le choix de quitter le programme en appuyant sur la touche 7.
 
-![alt text](https://github.com/manon-deleest/blibliotheque/blob/main/image/screen1.png)
+![alt text](https://github.com/manon-deleest/blibliotheque-/blob/master/image/screen1.png)
 
 
 Ce type de programme est basé sur les menus (switch) car le menu est le moyen le plus simple d’illustrer les interactions entre l’utilisateur et le programme. En C++, les menus réagissent suivant un opérateur qui est obligatoirement de type entier ou caractère. Le problème avec ces types, c’est que sans contrôle de saisies, sur une saisie erronée, le programme peut arrêter l’exécution, donc il a fallu contourner le problème et rendre le menu infaillible. 
@@ -19,9 +19,9 @@ Enfin le caractère saisit par l’utilisateur est attribué à une variable de 
 Concrètement, ce travail de contrôle permet de fiabiliser le programme.
 Quelques exemples de saisies habituellement problématiques, résolus grâce aux contrôles.
 
-![alt text](https://github.com/manon-deleest/blibliotheque/blob/main/image/screen2.png)
+![alt text](https://github.com/manon-deleest/blibliotheque-/blob/main/image/screen2.png)
 
-![alt text](https://github.com/manon-deleest/blibliotheque/blob/main/image/screen3.png)
+![alt text](https://github.com/manon-deleest/blibliotheque-/blob/main/image/screen3.png)
 
 En saisissant « 1 » soit « Ajouter un livre », on accède à la création d’un livre, une multitude d’informations est demandée à l’utilisateur afin de remplir le tableau de données consacré aux livres en arrière-plan. On peut y retrouver le genre du livre, la date de publication du livre ou encore le nombre de pages …
 
