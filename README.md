@@ -1,10 +1,9 @@
-# Préambule 
+## Préambule 
 
   Lors du module M1103 intitulé « Structure de données & Algorithmes fondamentaux » j'ai appris à manipuler les tableaux, les structures ainsi que les fichiers. J'ai eu à réaliser sur plusieurs séances de TP puis en autonomie, un projet autour d’une bibliothèque codée en C/C++ , langage appris lors du premier semestre. J'ai réalisé ce projet en binôme avec l'un de mes camarades. C’était un projet plus long et plus concret que les précédents, qui m’a appris à m’organiser et me fixer des objectifs à réaliser en un temps donné. 
 
 ***
-
-# Explication
+## Explication
 
   Le programme débute avec un menu. Sur ce menu se trouve la partie centrale du programme : l’ajout de livre, d’auteurs, l’affichage des auteurs … mais aussi la possibilité de choisir un nouveau menu, le « Menu Livre » ou le « Menu Auteur ». L’utilisateur a aussi le choix de quitter le programme en appuyant sur la touche 7.
 
@@ -56,14 +55,13 @@ Pour une question pratique, il est imposé à l’utilisateur le tri après la s
 
 
 ***
-# Document mis à disposition
+## Document mis à disposition
 
 -	new_main.cpp : programme principal
 -	procedure.cpp : ensemble des procédures nécessaires
 -	outils.cpp : ensemble des procédures ‘universelles’, que l’on pourrait utiliser plusieurs fois
 -	include1.h : ensemble des déclarations du « procedure.cpp » + déclaration des structures, constantes…
 -	outils.h : ensemble des déclarations du « outils.cpp »
-
 
 ***
 
