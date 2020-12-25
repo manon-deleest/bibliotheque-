@@ -12,13 +12,13 @@
 ![alt text](https://github.com/manon-deleest/blibliotheque-/blob/master/image/screen1.png)
 
 
-Ce type de programme est basé sur les menus (switch) car le menu est le moyen le plus simple d’illustrer les interactions entre l’utilisateur et le programme. En C++, les menus réagissent suivant un opérateur qui est obligatoirement de type entier ou caractère. Le problème avec ces types, c’est que sans contrôle de saisies, sur une saisie erronée, le programme peut arrêter l’exécution, donc il a fallu contourner le problème et rendre le menu infaillible. 
-Ainsi, l’utilisateur doit saisir une chaine de caractères au lieu saisir un caractère, pour l’utilisateur il n’ y a aucun changement si ce n’est que cela évite beaucoup de bug. 
+Ce type de programme est basé sur les menus (switch) car le menu est le moyen le plus simple d’illustrer les interactions entre l’utilisateur et le programme. En C++, les menus réagissent suivant un opérateur qui est obligatoirement de type entier ou caractère. Le problème avec ces types de données, c’est que sans contrôle de saisies, sur une saisie erronée, le programme peut arrêter l’exécution, donc il a fallu contourner le problème et rendre le menu infaillible. 
+Ainsi, l’utilisateur doit saisir une chaine de caractères au lieu de saisir un caractère, pour l’utilisateur il n’ y a aucun changement si ce n’est que cela évite beaucoup de bug. 
 De plus, le menu demande un chiffre pour choisir sa destination, il a donc fallu créer la procédure « contrôle_chiffre » qui prend en entrée une chaine de caractères, et vérifie grâce à la fonction « isdigit» si la chaine saisie comporte uniquement des chiffres, le cas échéant, l’utilisateur reçoit un message d’erreur et peut ressaisir cette chaine.
 La chaine devait comporter un seul caractère, une procédure contrôlant la taille de la chaine était donc nécessaire. Une fois la taille de la chaine contrôlée, la saisie de l’utilisateur devait correspondre à une option du menu. 
 Enfin le caractère saisit par l’utilisateur est attribué à une variable de type caractère. Cette variable est l’opérateur demandé par le menu. 
 Concrètement, ce travail de contrôle permet de fiabiliser le programme.
-Quelques exemples de saisies habituellement problématiques, résolus grâce aux contrôles.
+Quelques exemples de saisies habituellement problématiques, résolues grâce aux contrôles.
 
 ![alt text](https://github.com/manon-deleest/blibliotheque-/blob/master/image/screen2.png)
 
@@ -59,11 +59,11 @@ Pour une question pratique, il est imposé à l’utilisateur le tri après la s
 ***
 ## Document mis à disposition
 
--	new_main.cpp : programme principal
--	procedure.cpp : ensemble des procédures nécessaires
--	outils.cpp : ensemble des procédures ‘universelles’, que l’on pourrait utiliser plusieurs fois
--	include1.h : ensemble des déclarations du « procedure.cpp » + déclaration des structures, constantes…
--	outils.h : ensemble des déclarations du « outils.cpp »
+-	[new_main.cpp](https://github.com/manon-deleest/blibliotheque-/blob/master/new_main.cpp) : programme principal
+-	[procedure.cpp](https://github.com/manon-deleest/blibliotheque-/blob/master/procedure.cpp) : ensemble des procédures nécessaires
+-	[outils.cpp](https://github.com/manon-deleest/blibliotheque-/blob/master/outils.cpp) : ensemble des procédures ‘universelles’, que l’on pourrait utiliser plusieurs fois
+-	[include1.h](https://github.com/manon-deleest/blibliotheque-/blob/master/include1.h) : ensemble des déclarations du « procedure.cpp » + déclaration des structures, constantes…
+-	[outils.h](https://github.com/manon-deleest/blibliotheque-/blob/master/outils.h) : ensemble des déclarations du « outils.cpp »
 
 ***
 
