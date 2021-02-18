@@ -2,7 +2,7 @@
 
 ## Préambule 
 
-  Lors du module M1103 intitulé « Structure de données & Algorithmes fondamentaux » j'ai appris à manipuler les tableaux, les structures ainsi que les fichiers. J'ai eu à réaliser sur plusieurs séances de TP puis en autonomie, un projet autour d’une bibliothèque codée en C/C++ , langage appris lors du premier semestre. J'ai réalisé ce projet en binôme avec l'un de mes camarades. C’était un projet plus long et plus concret que les précédents, qui m’a appris à m’organiser et me fixer des objectifs à réaliser en un temps donné. 
+  Lors du module M1103 intitulé « Structure de données & Algorithmes fondamentaux » j'ai appris à manipuler les tableaux, les structures ainsi que les fichiers. J'ai eu à réaliser sur plusieurs séances de TP puis en autonomie, un projet autour d’une bibliothèque codée en C/C++ , langage appris lors du premier semestre. J'ai réalisé ce projet en binôme avec [Valentin Rougier](https://github.com/valentinrougier39). C’était un projet plus long et plus concret que les précédents, qui m’a appris à m’organiser et me fixer des objectifs à réaliser en un temps donné. 
 
 ***
 ## Explication
